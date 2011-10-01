@@ -5,9 +5,9 @@ filetype plugin indent on
 
 set nocompatible
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 set encoding=utf-8
@@ -95,7 +95,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 colorscheme Mustang
-set guifont=DejaVu\ Sans\ Mono\ Book\ 12
+set guifont=Menlo:h12,DejaVu\ Sans\ Mono\ Book\ 12
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
