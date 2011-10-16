@@ -48,14 +48,14 @@ set formatoptions=qrn1
 set colorcolumn=85
 
 "Disable arrow keys
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
+"nnoremap <up> <nop>
+"nnoremap <down> <nop>
+"nnoremap <left> <nop>
+"nnoremap <right> <nop>
+"inoremap <up> <nop>
+"inoremap <down> <nop>
+"inoremap <left> <nop>
+"inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
@@ -97,7 +97,7 @@ nnoremap <C-l> <C-w>l
 colorscheme Mustang
 set guifont=Menlo:h12,DejaVu\ Sans\ Mono\ Book\ 12
 
-let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+let g:ackprg="ack -H --nocolor --nogroup --column"
 
 nnoremap <silent> <F3> :YRShow<cr>
 inoremap <silent> <F3> <ESC>:YRShow<cr>
