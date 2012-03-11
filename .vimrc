@@ -25,6 +25,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 set undofile
+set wildignore=*.log,*.jpg,*.jpeg,*.gif,*.png,tmp/**,*.sqlite3
 
 let mapleader = ","
 
@@ -74,7 +75,8 @@ vnoremap <F1> <ESC>
 nnoremap ; :
 
 "Save on losing focus
-au FocusLost * :wa
+"au FocusLost * :wa
+autocmd BufLeave,FocusLost * silent! wall
 
 "Re-hardwrap paragraphs of text
 nnoremap <leader>q gqip
