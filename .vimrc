@@ -31,8 +31,8 @@ let mapleader = ","
 
 "Keep temporary files in one place
 set backup
-set backupdir=~/.tmp
-set directory=~/.tmp
+set backupdir=~/tmp
+set directory=~/tmp
 
 
 "Searching and moving around
