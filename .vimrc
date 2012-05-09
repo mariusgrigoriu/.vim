@@ -71,9 +71,6 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
-"Can use ; for :
-nnoremap ; :
-
 "Save on losing focus
 "au FocusLost * :wa
 autocmd BufLeave,FocusLost * silent! wall
